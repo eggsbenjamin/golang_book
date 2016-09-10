@@ -28,7 +28,7 @@ using the following syntax: `myArray[ 3 ]`
 
 ##What is the length of a slice created using: make([]int, 3, 9)?
 
-3, the first 3 elements of the underlying array which has a length of 9
+3 - the first 3 elements of the underlying array ( which has a length of 9 )
 
 ##Given the array:
 
@@ -44,7 +44,7 @@ a slice containing the following elements:
 [ "c", "d", "e" ]
 ```
 
-the expression uses ( [startIndex:endIndex] ) returns a slice of the array from, and including the 'startIndex' up to, but not including the 'endIndex'.
+the expression uses `[startIndex:endIndex]` returns a slice of the array from, and including, the 'startIndex' and up to, but not including, the 'endIndex'
 
 ##Write a program that finds the smallest number in this list:
 
