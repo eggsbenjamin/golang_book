@@ -44,7 +44,7 @@ a slice containing the following elements:
 [ "c", "d", "e" ]
 ```
 
-the expression uses `[startIndex:endIndex]` returns a slice of the array from, and including, the 'startIndex' and up to, but not including, the 'endIndex'
+the expression `[startIndex:endIndex]` returns a slice of the array from, and including, the 'startIndex' and up to, but not including, the 'endIndex'
 
 ##Write a program that finds the smallest number in this list:
 
